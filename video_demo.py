@@ -173,12 +173,16 @@ def detect(save_img=False):
 
 if __name__ == '__main__':
 
-    ip = "192.168.1.37"
+    ip = "172.23.0.9"
     video_path = 'rtsp://admin:123456789bit@' + ip + '/1'
-    video_path = '0'
+    # video_path = '0'
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', nargs='+', type=str, default='yolov5x.pt', help='model.pt path(s)')
+    parser.add_argument('--weights',
+                        nargs='+',
+                        type=str,
+                        default='pts/phone-s.pt',
+                        help='model.pt path(s)')
     parser.add_argument('--source',
                         type=str,
                         default=video_path,
