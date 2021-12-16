@@ -17,7 +17,7 @@
 *.mov
 *.MOV
 *.avi
-*.data
+# *.data
 *.json
 
 *.cfg
