@@ -15,10 +15,10 @@ val: data/datasets/jd/labels/val.txt
 test: data/datasets/jd/labels/val.txt 
 
 # number of classes
-nc: 4
+nc: 6
 
 # class names
-names: ['person', 'cellphone','identification','notebook']
+names: ['person', 'face','identification','cellphone','notebook','chest']
 
 # Print classes
 # with open('data/coco.yaml') as f:

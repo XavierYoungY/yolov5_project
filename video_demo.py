@@ -175,13 +175,13 @@ if __name__ == '__main__':
 
     ip = "172.23.0.9"
     video_path = 'rtsp://admin:123456789bit@' + ip + '/1'
-    # video_path = '0'
+    video_path = '0'
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights',
                         nargs='+',
                         type=str,
-                        default='pts/phone-s.pt',
+                        default='pts/s-chest.pt',
                         help='model.pt path(s)')
     parser.add_argument('--source',
                         type=str,
