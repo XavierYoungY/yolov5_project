@@ -112,14 +112,7 @@ dependencies:
   - libopencv=4.4.0=py38_2
   - libpng=1.6.37=hbc83047_0
   - libpq=12.3=h5513abc_0
-  - libprotobuf=3.13.0=h8b12597_0
-  - libsodium=1.0.18=h7b6447c_0
-  - libspatialindex=1.9.3=he6710b0_0
-  - libstdcxx-ng=9.1.0=hdf63c60_0
-  - libtiff=4.1.0=hc7e4089_6
-  - libuuid=2.32.1=h14c3975_1000
-  - libwebp-base=1.1.0=h516909a_3
-  - libxcb=1.14=h7b6447c_0
+  - libprotobuf=3.13.0=h8b12py38
   - libxkbcommon=0.10.0=he1b5a44_0
   - libxml2=2.9.10=h68273f3_2
   - libzopfli=1.0.3=he1b5a44_0
@@ -168,9 +161,7 @@ dependencies:
   - pip=20.2.2=py38_0
   - pixman=0.38.0=h516909a_1003
   - pluggy=0.13.1=py38_0
-  - prompt-toolkit=3.0.6=py_0
-  - protobuf=3.13.0=py38h950e882_0
-  - psutil=5.7.2=py38h7b6447c_0
+  - prompt-toolkit=3.0.6=ppy387c_0
   - ptyprocess=0.6.0=py38_0
   - py-opencv=4.4.0=py38h23f93f0_2
   - pyasn1=0.4.8=py_0

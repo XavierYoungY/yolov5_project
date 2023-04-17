@@ -181,7 +181,7 @@ if __name__ == '__main__':
     parser.add_argument('--weights',
                         nargs='+',
                         type=str,
-                        default='pts/s-chest.pt',
+                        default='data/last.pt',
                         help='model.pt path(s)')
     parser.add_argument('--source',
                         type=str,

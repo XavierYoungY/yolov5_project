@@ -25,6 +25,7 @@
 
 storage.googleapis.com
 runs/*
+datasets/*
 data/datasets/*
 !data/samples/zidane.jpg
 !data/samples/bus.jpg
